@@ -1,0 +1,36 @@
+.slider-main-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+}
+.slider-row-1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider-body {
+  border-radius: 50%;
+  display: flex;
+  /* color: #fff; */
+  justify-content: center;
+  align-items: center;
+  background: yellow;
+  overflow: hidden;
+}
+.slider-toggle-icon {
+  cursor: pointer;
+  /* position: absolute;
+  top: 50%; */
+}
+/* .slider-toggle-icon-left {
+  left: 0;
+} */
+/* .slider-toggle-icon-right {
+  right: 0;
+} */
+.slider-row-2 {
+  text-align: center;
+}
